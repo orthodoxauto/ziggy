@@ -1,5 +1,5 @@
 {
-    "name": "tightenco/ziggy",
+    "name": "orthodoxauto/ziggy",
     "description": "Use your Laravel named routes in JavaScript.",
     "keywords": [
         "laravel",
@@ -7,7 +7,7 @@
         "javascript",
         "ziggy"
     ],
-    "homepage": "https://github.com/tighten/ziggy",
+    "homepage": "https://github.com/orthodoxauto/ziggy",
     "license": "MIT",
     "authors": [
         {
@@ -21,6 +21,10 @@
         {
             "name": "Jacob Baker-Kretzmar",
             "email": "jacob@tighten.co"
+        },
+        {
+            "name": "CashforCars.io",
+            "email": "admin@cashforcars.io"
         }
     ],
     "require": {

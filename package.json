@@ -7,12 +7,12 @@
         "routes",
         "ziggy"
     ],
-    "homepage": "https://github.com/tighten/ziggy",
-    "bugs": "https://github.com/tighten/ziggy/issues",
+    "homepage": "https://github.com/orthodoxauto/ziggy",
+    "bugs": "https://github.com/orthodoxauto/ziggy/issues",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/tighten/ziggy.git"
+        "url": "git+https://github.com/orthodoxauto/ziggy.git"
     },
     "authors": [
         {

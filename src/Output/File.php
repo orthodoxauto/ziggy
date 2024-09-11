@@ -17,7 +17,7 @@ class File implements Stringable
     public function __toString(): string
     {
         return <<<JAVASCRIPT
-const Ziggy = {$this->ziggy->toJson()};
+var Ziggy = {$this->ziggy->toJson()};
 if (typeof window !== 'undefined' && typeof window.Ziggy !== 'undefined') {
     Object.assign(Ziggy.routes, window.Ziggy.routes);
 }

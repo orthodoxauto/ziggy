@@ -262,7 +262,7 @@ class CustomFileFormatter extends File
     {
         return <<<JAVASCRIPT
 // This is a custom template
-const Ziggy = {$this->ziggy->toJson()};
+var Ziggy = {$this->ziggy->toJson()};
 export { Ziggy };
 
 JAVASCRIPT;

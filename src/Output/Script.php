@@ -21,7 +21,7 @@ class Script implements Stringable
     public function __toString(): string
     {
         return <<<HTML
-<script type="text/javascript"{$this->nonce}>const Ziggy={$this->ziggy->toJson()};{$this->function}</script>
+<script type="text/javascript"{$this->nonce}>var Ziggy={$this->ziggy->toJson()};{$this->function}</script>
 HTML;
     }
 }
